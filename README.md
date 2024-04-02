@@ -5,7 +5,6 @@
 - [Problem Statement](#ProblemSatement)
 - [Data Source](#datasource)
 - [Data Preparation](#datapreparation)
-- [Data Modelling](#DataModelling)
 - [Data Analysis (DAX)](#DataAnalysis(DAX))
 - [Data Visualization Dashboard](#DataVisualizationDashboard)
 
@@ -40,14 +39,6 @@ Data Cleaning for the dataset was done in the power query editor as follows:
 - Each of the columns in the table was validated to have the correct data type.
 - Changed null values to 0
 - Extracted seconds, minutes from avg. talk duration and created a new column named - Duration on Calls
-
-## Data Modeling:
-
-Then dataset was cleaned and transformed, it was ready for the data modeled.
-
-- The `measure table` and `call center trends` tables as shown below:
-
--![Screenshot (37)](https://user-images.githubusercontent.com/118357991/227766088-7fe8f2b3-b4b3-4cfd-a925-0895874ea956.png)
 
 ## Data Analysis (DAX):
 
